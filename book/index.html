@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>1-1 전기력 - phycis_noni</title>
+        <title>전기력 - phycis_noni</title>
 
 
         <!-- Custom HTML head -->
@@ -131,7 +131,7 @@
                         <a href="https://github.com/ojc1234/physcis_noni" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
-                        <a href="https://github.com/ojc1234/physcis_noni/blob/master/src/chapter_1.md" title="Suggest an edit" aria-label="Suggest an edit">
+                        <a href="https://github.com/ojc1234/physcis_noni/blob/master/src/chapter_1/chapter_1-1.md" title="Suggest an edit" aria-label="Suggest an edit">
                             <i id="git-edit-button" class="fa fa-edit"></i>
                         </a>
 
@@ -182,8 +182,21 @@
 <br>
  전기력은 중력과 마찬가지로 전하들 사이의 거리으 ㅣ제곱에 반비례하는데, 이것을 쿨롱의 법칙(<strong>Coulomb's law</strong>)이라 한다. 그러나 '움직이는 전하'는 이법칙으로 완벽하게 설명할 수 없다. 전기력은전하의 운동 상태에 따라 복잡하게 변한다. 움직이는 전하들 사이에 작용하는 힘의 일부를 자기력(<strong>magnetic force</strong>)이라고 하는데, 사실 이것은 전기적 효과의 한 측면에 불과하다. 그래서 이들을 한데 묶어 "전자기(<strong>electromagnetism</strong>)"라고 부른다.
 <br>
- 전자기력이 따르는 중요한 일반적 원리를 알고 있으면 전기와 자기 현상을 비교적 쉽게 다룰 수 있다. 실험에 의하면, 어떤 특정한 전하에 작용하는 힘은 다른 전하의 개수나 운동 상태에 상관없이) 그 전하의 위치와 속도, 그리고 전하량에만 관걔한다. 속도 \( v \)로 운동하는 전하 \( q \)에 작용하는 힘 \( F \)는
-\[ F = q ( E + v \times B ) \]</p>
+ 전자기력이 따르는 중요한 일반적 원리를 알고 있으면 전기와 자기 현상을 비교적 쉽게 다룰 수 있다. 실험에 의하면, 어떤 특정한 전하에 작용하는 힘은 다른 전하의 개수나 운동 상태에 상관없이 그 전하의 위치와 속도, 그리고 전하량에만 관걔한다. 속도 \( \bf v \)로 운동하는 전하 \( q \)에 작용하는 힘 \( \bf F \)는</p>
+<p>\[ \begin{align}  \bf F &amp;= q ( \bf E + \bf v \times \bf B ) &amp;&amp; (1.1) \end{align} \ \]</p>
+<p>로 쓸수 있다. 여기서 \(E\)는 전하 \(q\)가 놓여 있는 위치에서의 전기장(<strong>electric filed</strong>)이고, \(B\)는 그 위치에서의 자기장(<strong>magnetic field</strong>)을 나타낸다. 식 (1.1)로 부터 알 수 있는 중요한 사실은, 우주에 존재하는 모든 전하들로부터 야기되는 전기력이 두 개의 벡터 \( E, B\) 로 요약된다는 것이다. 이 벡터의 값은 전하 \( q \)의 위치에 따라 다르며, 시간에 따라 달라질 수도 있다. 또한 전하 \(q\)의 값이 달라졌을 때 이 입자에 미치는 힘은 전하량에 비례해서 달라진다(물론 실제 상황에서 개개의 전하들은 주변의 모든 전하들에게 힘을 행사하기 때문에, 한 입자의 전하량을 바꿔 놓으면 다른 전하들의 운동 상태가 달랃져서 장의 값이 바뀔 수도 있다).
+<br>
+ 제 1권에서 우리는 한 입자에 미치는 힘을 알고 있을 때 입자의 운동을 예측 하는 방법을 배웠다. 식 (1.1)과 운동 방정식을 결합하면
+\[  \begin{align} \frac{{\rm d}​}{{\rm d}​x}​   \biggl[ \frac {m \bf v }{ (1-v^2/c^2)^{1/2} } \biggr]  = \bf F = q ( \bf E + \bf v \times \bf B ) &amp;&amp; (1.2) \end{align} \]</p>
+<p>가 된다. 즉, \(\bf E\)와 \(\bf B\)가 주어지면 전하를 가진 입자의 운동을 알 수 있다. 따라서 다음으로 우리가 할 일은 \(\bf E\)와 \(\bf B\)가 어떻게 발생하는지를 알아내는 것이다.
+<br>
+ 장의 발생과 관련된 가장 중요한 원리는 다음과 같다. 한 무리의 전하들이 움직이면서 장 \(\bf E_1\)을 만들고,또 다른 무리의 전하들이 장 \(\bf E_2\)를 만든다고 가정해보자. 만일 두 무리의 전하들이 동시에 존재한다면, 발생되는 장은 다음과 같다.
+\[ \begin{align} \bf E = \bf E_1 + \bf E_2 &amp;&amp;(1.3) \end{align} \]
+이것이 바로 '중첩의 원리(<strong>superposition principle</strong>)'이며, 자기장의 경우에도 똑같이 적용된다.
+<br>
+ 일견 매우 단순해 보이는 이 원리속에는 심오한 사실이 담겨 있다. 즉, 움직이는 '단일' 전하가 만드는 전기장과 자기장을 구할 수만 있다면 전기역학(<strong>electrodynamics</strong>)의 모든 법칙이 완성된다는 것이다. 전하 \(A\)에 자용하는 힘을 알고 싶으면 나머지 모든 전하 \(B\), \(C\), \(D\)···가 만드는 \(\bf E\)와 \(\bf B\)를 일일이 계산한후 이들을 모두 더하여 전체 전기장과 자기장을 구하고, 그로부터 전하 \(A\)에 작용하는 힘을 구하면 된다. 만일 단일 전하가 만드는 장을 간단하게 구할 수 있다.면, 이로부터 전기역학의 법칙을 깔끔하게 표현할 수 있을 것이다. 그러나 안타깝게도 현실은 그렇지 않다. 제1권의 28장을 읽은 사람들은 알고 있겠지만, 단일 전하에 의한 장은 매우 복잡한 법칙을 따른다.
+<br>
+ 전자기학의 법칙 을 가장 단순하고 쉽게 표현하는 방식은 여러분이 예상하는 것과 사뭇 다르다. 한 전하가 다른 전하에 미치는 힘을 나열하면 다 될 것 같지만, 사실 이것은 그다지 좋은 방법이 아니다. 물론, 모든 전하들이 정지해 있는 경우에는 쿨롱의 법칙으로 기술하는 것이 가장 쉽다. 그러나 전하들이 움직이고 있으면 시간 지연 효과와 가속도 등의 요인 때문에 상황은 훨씬 복잡해진다. 따라서 앞으로 우리는 전하들 사이의 힘에 관한 법칙을 나열하는 방식으로 전기역학을 서술하지는 않을 것이다. 곧 알게 되겠지만, 저닉역학의 법칙들을 가장 쉽게 다룰 수 있는 접근법은 따로 있다.</p>
 
                     </main>
 
@@ -202,22 +215,6 @@
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script>
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
 
 
 
