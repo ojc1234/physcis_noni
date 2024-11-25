@@ -1,6 +1,6 @@
 [book]
 authors = ["Noni"]
-language = "en"
+language = "ko-kr"
 multilingual = false
 src = "src"
 title = "phycis_noni"
