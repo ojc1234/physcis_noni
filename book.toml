@@ -6,3 +6,5 @@ src = "src"
 title = "phycis_noni"
 [output.html]
 mathjax-support = true
+git-repository-url = "https://github.com/ojc1234/physcis_noni"
+edit-url-template = "https://github.com/ojc1234/physcis_noni/{path}"
