@@ -1,8 +1,6 @@
 [book]
 authors = ["Noni"]
 language = "ko-kr"
-multilingual = false
-src = "src"
 title = "phycis_noni"
 [output.html]
 mathjax-support = true

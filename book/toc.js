@@ -8,7 +8,7 @@ class MDBookSidebarScrollbox extends HTMLElement {
         super();
     }
     connectedCallback() {
-        this.innerHTML = '<ol class="chapter"><li class="chapter-item expanded "><div><strong aria-hidden="true">1.</strong> Chapter 1 전자기</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="chapter_1/chapter_1-1.html"><strong aria-hidden="true">1.1.</strong> 전기력</a></li></ol></li></ol>';
+        this.innerHTML = '<ol class="chapter"><li class="chapter-item expanded "><a href="chapter_0/chapter_0-1.html"><strong aria-hidden="true">1.</strong> Chapter 0 머릿말</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.</strong> Chapter 1 자연과학과 물리학 입문</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="chapter_1/chapter_1-1.html"><strong aria-hidden="true">2.1.</strong> 과학과 물리학의 범위 물리적 양과 단위</a></li><li class="chapter-item expanded "><a href="chapter_1/chapter_1-2.html"><strong aria-hidden="true">2.2.</strong> 1.1 물리:입문</a></li><li class="chapter-item expanded "><a href="chapter_1/chapter_1-2.html"><strong aria-hidden="true">2.3.</strong> 1.2 물리적 양과 단위</a></li><li class="chapter-item expanded "><a href="chapter_1/chapter_1-3.html"><strong aria-hidden="true">2.4.</strong> 1.3 정확도, 정밀도 정밀한 형태</a></li></ol></li></ol>';
         // Set the current, active page, and reveal it if it's hidden
         let current_page = document.location.href.toString();
         if (current_page.endsWith("/")) {
